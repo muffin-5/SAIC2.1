@@ -1,0 +1,42 @@
+.container{
+    height: 12vh;
+    background-color: #1D1D1F;
+    color: #F5F5F7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 35px;
+}
+.items a,.buttoms a{
+    text-decoration: none;
+    color: inherit;
+}
+.image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#saic{
+    background-image: linear-gradient(to top, #ffb6ff, #f29afd, #e17dfc, #cd61fd, #b344ff);
+    background-clip: text;
+    color: transparent;
+}
+
+.buttoms{
+    padding: 8px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
