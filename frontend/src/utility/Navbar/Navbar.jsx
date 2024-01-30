@@ -20,7 +20,7 @@ const Navbar = () => {
           <a href="#">Giving Back</a>
         </div>
         <div className="buttoms">
-        <a href="#" class="signup-button">Sign in</a>
+        <a href="#" className="signup-button">Sign in</a>
         </div>
       </div>
     </>

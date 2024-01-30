@@ -1,0 +1,36 @@
+.heroImage{
+    position: relative;
+}
+.heroImage img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.heroText{
+    box-sizing: border-box;
+    position:absolute;
+    top: 85%;
+    left: 5%;
+    color: white;
+}
+#text1{
+    font-size: 28px;
+    margin-bottom: 3%;
+}
+.text2{
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 14%;
+}
+.text3{
+    font-size: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: white;
+    border: solid;
+    border-radius: 7px;
+    text-decoration: none;
+}
