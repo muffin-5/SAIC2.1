@@ -202,3 +202,29 @@
 .mockinterviewsTestimonialsCardsControllerScrollBar {
     width: 400px;
 }
+
+.mockinterviewsFaqs {
+    width: 100%;
+    background-color: #f5f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 704px;
+}
+.mockinterviewsFaqsContainer {
+    max-width: 840px;
+    width: 840px;
+    height: 704px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.mockinterviewsFaqsH {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #1d1d1f;
+    max-width: 496px;
+}
