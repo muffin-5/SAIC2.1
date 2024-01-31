@@ -1,4 +1,4 @@
-import Navbar from './utility/navbar/Navbar'
+import Navbar from './utility/Navbar/Navbar'
 import MockInterviews from './components/initiatives/mockinterviews/MockInterviews'
 import './App.css'
 
