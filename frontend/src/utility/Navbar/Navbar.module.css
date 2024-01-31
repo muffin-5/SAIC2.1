@@ -1,11 +1,14 @@
 .navContainer{
     height: 100px;
+    width: 100%;
     background-color: #1D1D1F;
     color: #F5F5F7;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid #cecece50;
+    position: fixed;
+    z-index: 100;
 }
 
 .navItems{
@@ -40,4 +43,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer; 
+}
+.navIntro{
+    line-height: 16px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import topimage from '../../../assets/home.png'
+import topimage from '../../../assets/tricsl 3.png'
 import style from './Top.module.css'
 const Top = () => {
   return (
