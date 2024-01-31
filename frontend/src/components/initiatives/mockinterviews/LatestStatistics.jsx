@@ -1,6 +1,6 @@
 import React from 'react'
 import iitbhu from '../../../assets/iitbhuillustration.svg'
-import MockStats from '../../../utility/MockStats'
+// import MockStats from '../../../utility/MockStats'
 const LatestStatistics = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const LatestStatistics = () => {
           <div className="mockinterviewsLatestStatisticsLeft">
             <p className="mockinterviewsLatestStatisticsh">Latest Statistics</p>
             {/* stats */}
-            <LatestStatistics />
+            {/* <LatestStatistics /> */}
           </div>
           <div className="mockinterviewsLatestStatisticsRight">
             {/* illustration */}
