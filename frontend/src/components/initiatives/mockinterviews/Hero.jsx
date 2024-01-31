@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-      <div id='mockinterviewsHero'>
+      <div className='mockinterviewsHero'>
         <div className="mockinterviewsHeroContainer">
             <p className="mockinterviewsHeroh1">Skyrocketing careers: One interview at a time</p>
             <div className="mockinterviewsLine"></div>

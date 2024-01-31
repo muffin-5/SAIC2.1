@@ -1,4 +1,4 @@
-#mockinterviewsHero {
+.mockinterviewsHero {
     max-height: 839px;
     width: 100vw;
     height: 839px;
@@ -107,7 +107,7 @@
     width: 167px;
 }
 
-#mockinterviewsLatestStatistics {
+.mockinterviewsLatestStatistics {
     /* add height and width constraints */
     background-color: #f5f5f7;
     width: 100%;
