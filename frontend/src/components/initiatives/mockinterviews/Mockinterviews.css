@@ -96,6 +96,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .mockinterviewsHeroButtons1 {
     background-color: #f5f5f7;
@@ -227,4 +228,139 @@
     line-height: 44px;
     color: #1d1d1f;
     max-width: 496px;
+}
+
+.mockinterviewsContactAndFeedback {
+    width: 100%;
+    background-color: #1d1d1f;
+    max-height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mockinterviewsContactAndFeedbackContainer {
+    max-width: 1240px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.mockinterviewsContactAndFeedbackLeft {
+    max-height: 160px;
+    max-width: 602px;
+    height: 601px;
+    width: 602px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mockinterviewsContactAndFeedbackRight {
+    max-height: 155px;
+    max-width: 483px;
+    height: 155px;
+    width: 483px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mockinterviewsContactAndFeedbackLine {
+    background-color: #f5f5f7;
+    max-width: 1px;
+    max-height: 160px;
+    height: 160px;
+    width: 1px;
+}
+.mockinterviewsContactAndFeedbackLeftH1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.mockinterviewsContactAndFeedbackLeftp {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.mockinterviewsContactAndFeedbackButton {
+    max-height: 52px;
+    max-width: 158px;
+    border: 1px solid #f5f5f7;
+    border-radius: 8px;
+    width: 158px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mockinterviewsContactAndFeedbackButtonp {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.mockinterviewsContactAndFeedbackRightH1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.mockinterviewsContactAndFeedbackRightp {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.mockinterviewsContactAndFeedbackEmailAndNumber {
+    max-width: 483px;
+    max-height: 47px;
+    width: 483px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.mockinterviewsContactAndFeedbackEmail {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    max-width: 283px;
+    max-height: 42px;
+    width: 283px;
+    height: 42px;
+}
+.mockinterviewsContactAndFeedbackEmailImg {
+    max-height: 32px;
+    max-width: 32px;
+}
+.mockinterviewsContactAndFeedbackEmailp {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.mockinterviewsContactAndFeedbackNumber {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    max-width: 180px;
+    max-height: 47px;
+    height: 47px;
+    width: 180px;
+}
+.mockinterviewsContactAndFeedbackNumberImg {
+    max-height: 32px;
+    max-width: 32px;
+}
+.mockinterviewsContactAndFeedbackNumberp {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
 }
