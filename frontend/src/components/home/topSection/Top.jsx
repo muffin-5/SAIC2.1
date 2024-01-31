@@ -1,20 +1,20 @@
 import React from 'react'
 import topimage from '../../../assets/home.png'
-import './Top.css'
+import style from './Top.module.css'
 const Top = () => {
   return (
     <>
-    <div className="heroContainer">
-      <div className="heroImage">
+    <div className={style.heroContainer}>
+      <div className={style.heroImage}>
         <img src={topimage} alt="Image" />
       </div>
-      <div className="heroText">
-        <p id='text1'>Connect. Engage. Celebrate</p>
-        <div className="text2">
+      <div className={style.heroText}>
+        <p id={style.text1}>Connect. Engage. Celebrate</p>
+        <div className={style.text2}>
         <p >Strengthening the IIT (BHU) fraternity,</p>
         <p >student to alumni</p>
         </div>
-        <a className='text3' href="">Know More</a>
+        <a className={style.text3} href="">Know More</a>
       </div>
     </div>
     </>
