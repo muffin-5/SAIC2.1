@@ -1,19 +1,20 @@
 import React from 'react'
 import iitbhu from '../../../assets/iitbhuillustration.svg'
 // import MockStats from '../../../utility/MockStats'
+import style from './MockInterviews.module.css'
 const LatestStatistics = () => {
   return (
     <>
-      <div className="mockinterviewsLatestStatistics">
-        <div className="mockinterviewsLatestStatisticsContainer">
-          <div className="mockinterviewsLatestStatisticsLeft">
-            <p className="mockinterviewsLatestStatisticsh">Latest Statistics</p>
+      <div className={style.mockinterviewsLatestStatistics}>
+        <div className={style.mockinterviewsLatestStatisticsContainer}>
+          <div className={style.mockinterviewsLatestStatisticsLeft}>
+            <p className={style.mockinterviewsLatestStatisticsh}>Latest Statistics</p>
             {/* stats */}
             {/* <LatestStatistics /> */}
           </div>
-          <div className="mockinterviewsLatestStatisticsRight">
+          <div className={style.mockinterviewsLatestStatisticsRight}>
             {/* illustration */}
-            <img className='mockinterviewsLatestStatisticsImg' src={ iitbhu } alt="iitbhuillustration.svg" />
+            <img className={style.mockinterviewsLatestStatisticsImg} src={ iitbhu } alt="iitbhuillustration.svg" />
           </div>
         </div>
       </div>

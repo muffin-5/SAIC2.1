@@ -1,11 +1,12 @@
 import React from 'react'
+import style from './MockInterviews.module.css'
 
 const FAQs = () => {
   return (
     <>
-      <div className="mockinterviewsFaqs">
-        <div className="mockinterviewsFaqsContainer">
-          <p className="mockinterviewsFaqsH">Frequently Asked Questions</p>
+      <div className={style.mockinterviewsFaqs}>
+        <div className={style.mockinterviewsFaqsContainer}>
+          <p className={style.mockinterviewsFaqsH}>Frequently Asked Questions</p>
         </div>
       </div>
     </>
