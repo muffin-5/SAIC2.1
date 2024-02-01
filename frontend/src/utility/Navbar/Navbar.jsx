@@ -1,26 +1,26 @@
 import React from "react";
 import logo from '../../assets/logo.svg';
-import './Navbar.css'
+import style from './Navbar.module.css'
 const Navbar = () => {
   return (
     <>
-      <div className="container">
-        <div className="image">
+      <div className={style.navContainer}>
+        <div className={style.navImage}>
           <img src={logo} alt="No Image" />
         </div>
-        <div className="intro">
+        <div className={style.navIntro}>
         <p>Indian Institute of Technology (BHU), Varanasi</p>
-        <p id="saic">Student Alumni Interaction Cell</p>
+        <p id={style.navIntroText}>Student Alumni Interaction Cell</p>
         </div>
-        <div className="items">
+        <div className={style.navItems}>
           <a href="#">Initiatives</a>
           <a href="#">News and Media</a>
           <a href="#">Events</a>
           <a href="#">Services</a>
           <a href="#">Giving Back</a>
         </div>
-        <div className="buttoms">
-        <a href="#" class="signup-button">Sign in</a>
+        <div className={style.navButtoms}>
+        <a href="#">Sign in</a>
         </div>
       </div>
     </>

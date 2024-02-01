@@ -1,7 +1,10 @@
-html, body
-{
-    margin: 0px 0px 0px 0px;
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: Poppins, sans-serif;
-    color: #F5F5F7;
-    /* overflow-x: hidden; */
 }
+body{
+  overflow-x: hidden;
+} 
